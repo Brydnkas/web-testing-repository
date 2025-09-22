@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizaa Review Course</title>
+  <meta name="viewpoer" content="width=deviice-width, initial-scale=1" />
+  <meta http-quiv="X-UA-Compatible" content="ie=edge" />
+</head>
+<body>
+
+    <!--Website Header-->
+    <header></header>
+  <h1>Pizza Review Course</h1>
+  <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!--Main Content-->
+<main>
+    <section>
+        <h2>Welcome to Pizza Review 101</h2>
+        <p>
+            In this course we explore <span>toppings, crusts, and sauces</span>
+            from the best pizzerias around!
+        </p>
+        </section>
+    
+    <article>
+        <h2>Feautured Review</h2>
+    <p>
+        <strong>Mario's Pizzeria</strong> gets a solid 9/10 for their thin crust and perfect cheese to sauce ratio.</strong>
+    </p>
+    </article>
+
+    <section>
+        <h2>Leave Your Pizza Review here.</h2>
+        <form action="/submit-review" methode="post">
+            <ul>
+                <li>
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Ex: Brayden Kabongo" required/>
+                </li>
+                <li>
+                    <label for="'email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ex: pbrydnkas@pizzapro.com" required />
+                </li>
+                <li>
+                    <label for="rating">Rating:</label>
+                    <input for="rating" id="rating" name="rating" min="1" max="10" />
+                </li>
+                <li>
+                    <label for="message">Your Review:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your pizza review here, don't be shy.."></textarea>
+                </li>
+                <li>
+                    <button type="submit">Submit Review</button>
+                </li>
+            </ul>
+        </form>
+    </section>
+</main>
+
+    <!-- 4) ASIDE-->
+    <aside>
+        <h3>Pizza Fact</h3>
+        <p>Tje first pizzeria in North America opened in 1905 (NYC).</p>
+    </aside>
+
+    <!-- 5) ASIDE-->
+     <footer>
+     <p>&copy; 2025 Pizza Review Course</p>
+     </footer>
+</body>
+</html>
